@@ -30,7 +30,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
   line(x,y, endX2, endY2);
   
   if (branchLength > smallestBranch){
-    drawBranches(endX1, endY1, branchLength, angle);
-    drawBranches(endX2, endY2, branchLength, angle);
+    drawBranches(endX1, endY1, branchLength, angle1);
+    drawBranches(endX2, endY2, branchLength, angle2);
   }
 } 
